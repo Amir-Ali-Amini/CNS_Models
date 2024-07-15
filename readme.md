@@ -21,7 +21,7 @@ The LIF model is one of the simplest and most widely used models of spiking neur
 ### Model Equation:
 
 The membrane potential \( u(t) \) is governed by the following differential equation:
-\[ \tau*m \frac{du(t)}{dt} = - (u(t) - u*{rest}) + R \cdot I(t) \]
+$$ \[ \tau*m \frac{du(t)}{dt} = - (u(t) - u*{rest}) + R \cdot I(t) \] $$
 
 Where:
 
