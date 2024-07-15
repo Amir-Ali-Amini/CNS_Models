@@ -22,8 +22,7 @@ The LIF model is one of the simplest and most widely used models of spiking neur
 
 The membrane potential $u(t)$ is governed by the following differential equation:
 
-$$\tau*m \frac{du(t)}{dt} = - (u(t) - u*{rest}) + R \cdot I(t)$$
-
+$\tau*m \frac{du(t)}{dt} = - (u(t) - u*{rest}) + R \cdot I(t)$
 
 Where:
 
@@ -50,7 +49,7 @@ The ELIF model extends the LIF model by adding an exponential term to the membra
 
 ### Model Equation
 
-$$\tau*m \frac{du(t)}{dt} = - (u(t) - u_{rest}) + \Delta*T \exp\left(\frac{u(t) - u_{th}}{\Delta_T}\right) + R \cdot I(t)$$
+$\tau*m \frac{du(t)}{dt} = - (u(t) - u_{rest}) + \Delta*T \exp\left(\frac{u(t) - u_{th}}{\Delta_T}\right) + R \cdot I(t)$
 
 Where:
 
@@ -72,8 +71,7 @@ The AELIF model further extends the ELIF model by introducing an adaptation mech
 ### Model Equation
 
 The membrane potential dynamics are given by:
-$$\tau*m \frac{du(t)}{dt} = - (u(t) - u_{rest}) + \Delta*T \exp\left(\frac{u(t) - u_{th}}{\Delta*T}\right) + R \cdot I(t) - w(t)$$
-$$\tau*w \frac{dw(t)}{dt} = a(u(t) - u_{rest}) - w(t)$$
+$\tau*m \frac{du(t)}{dt} = - (u(t) - u_{rest}) + \Delta*T \exp\left(\frac{u(t) - u_{th}}{\Delta*T}\right) + R \cdot I(t) - w(t)\tau*w \frac{dw(t)}{dt} = a(u(t) - u_{rest}) - w(t)$
 
 Where:
 
@@ -85,7 +83,7 @@ Where:
 ### Spike Generation and Adaptation
 
 When a spike is generated, $w(t)$ is incremented by a constant $b$:
-$$w(t) \leftarrow w(t) + b$$
+$w(t) \leftarrow w(t) + b$
 
 ### Implementation
 
