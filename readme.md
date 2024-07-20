@@ -96,3 +96,5 @@ The implementation is observable in `model.py`.
 ## Conclusion
 
 In this project, we successfully implemented the LIF, ELIF, and AELIF neuron models using the PyMontorch library. Each model captures different aspects of neuronal behavior, with increasing complexity and biological realism. These models serve as foundational tools for simulating and understanding neuronal dynamics in computational neuroscience.
+
+For project reports or further inquiries, please reach out to me at [amiraliamini@ur.ac.ir 📨](mailto:amiraliamini@ur.ac.ir).
